@@ -1,0 +1,8 @@
+	.ORIG x3000
+	AND R0, R0, 0
+	ADD R0, R0, 7
+	NOT R0, R0
+	AND R1, R1, 0
+	LD R1, val
+val:	.FILL 3
+	.END
