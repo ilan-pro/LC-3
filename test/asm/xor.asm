@@ -1,0 +1,8 @@
+	.ORIG x3000
+	AND R0, R0, 0
+	AND R1, R1, 0
+	AND R2, R2, 0
+	ADD R0, R0, 8
+	ADD R1, R1, 5
+	XOR R2, R0, R1
+	.END
