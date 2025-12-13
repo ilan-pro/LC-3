@@ -1,0 +1,5 @@
+	.ORIG x3000
+	AND R0, R0, 0
+	ADD R0, R0, 15
+	POPCNT R0, R0
+	.END
