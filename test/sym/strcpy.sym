@@ -1,0 +1,10 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	loop              3002
+//	strcpy            3007
+//	fini              3007
+//	chaine1           3008
+//	chaine2           3010
+
