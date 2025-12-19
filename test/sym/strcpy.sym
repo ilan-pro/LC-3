@@ -3,8 +3,9 @@
 //	Symbol Name       Page Address
 //	----------------  ------------
 //	loop              3002
-//	strcpy            3007
-//	fini              3007
-//	chaine1           3008
-//	chaine2           3010
+//	increment         3007
+//	strcpy            3011
+//	chaine1           3018
+//	chaine2           3020
+//	fin               3021
 

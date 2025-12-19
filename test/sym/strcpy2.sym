@@ -1,0 +1,10 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	loop              3002
+//	src               3008
+//	dst               3010
+//	ppo               3038
+//	fin               303A
+

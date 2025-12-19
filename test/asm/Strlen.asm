@@ -9,5 +9,5 @@ loop:	LDR R2,R0,0     ; Chargement dans R2 du caractère pointé par R0
 	ADD R1,R1,1     ; Incrémentation du compteur : c++
 	BR loop
 fini:	NOP
-chaine:	.STRINGZ "H"
+chaine:	.STRINGZ "Hello"
 	.END 
