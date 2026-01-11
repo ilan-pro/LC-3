@@ -1,7 +1,9 @@
+        ; résultat final stocké dans R5
         .ORIG x3000
         LD R0, value 
-        AND R0, R0, 0
-        AND R1, R1, 0 ; va servir de valeur à ajouter si il y a bien un 1 présent dans le chiffre
+        AND R1, R1, 0
+        AND R5, R5, 0
+        ADD R1, R1, 1 ; va servir de valeur à ajouter si il y a bien un 1 présent dans le chiffre
         LEA R2, power
 
 loop:   LDR R3, R2, 0
@@ -9,6 +11,7 @@ loop:   LDR R3, R2, 0
         BRp add_v 
         ADD R2, R2, 1
         ADD R1, R1, R1
+        BRz fin
         BR loop
 
 add_v:  ADD R5, R5, R1
@@ -34,3 +37,4 @@ power:  .FILL x8000   ; 2^15 = 32768
         .FILL x0004   ; 2^2  = 4
         .FILL x0002   ; 2^1  = 2
         .FILL x0001   ; 2^0 = 1
+fin:    .END

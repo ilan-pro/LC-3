@@ -15,7 +15,7 @@ loop:       AND R0, R0, R0  ; mise à jour NZP
             BRz fin         ; caractère nul => on sort de la boucle
 
             STR R3, R2, 0   ; R2 <- caractère courant de src
-
+            
             ADD R1, R1, 1   ; on avance dans src
             ADD R2, R2, 1   ; on avance dans dst
             ADD R0, R0, -1  ; décrémentation de n

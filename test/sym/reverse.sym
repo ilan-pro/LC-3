@@ -2,7 +2,9 @@
 // Scope level 0:
 //	Symbol Name       Page Address
 //	----------------  ------------
-//	reverse_bits      3000
-//	loop              3002
-//	done              300C
+//	loop              3005
+//	add_v             300C
+//	value             3010
+//	power             3011
+//	fin               3021
 
