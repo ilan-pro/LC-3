@@ -1,0 +1,11 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	predi_debord      3700
+//	clz               370F
+//	clz_loop          3711
+//	clz_endloop       3714
+//	arg1              3715
+//	arg2              3716
+

@@ -1,0 +1,9 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	clz               3500
+//	clz_loop          3503
+//	clz_endloop       3506
+//	arg               3507
+
